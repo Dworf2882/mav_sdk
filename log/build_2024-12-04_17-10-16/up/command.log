@@ -1,0 +1,2 @@
+Invoking command in '/home/dworf/mav_ws/build/up': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/Firmware2/install/aerobot_gz_sim:/opt/ros/humble /usr/bin/cmake /home/dworf/mav_ws/src/up -DCMAKE_INSTALL_PREFIX=/home/dworf/mav_ws/install/up
+Invoked command in '/home/dworf/mav_ws/build/up' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/Firmware2/install/aerobot_gz_sim:/opt/ros/humble /usr/bin/cmake /home/dworf/mav_ws/src/up -DCMAKE_INSTALL_PREFIX=/home/dworf/mav_ws/install/up

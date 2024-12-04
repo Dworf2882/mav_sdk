@@ -1,0 +1,10 @@
+/home/dworf/mav_ws/build/up/CMakeFiles/uninstall.dir
+/home/dworf/mav_ws/build/up/CMakeFiles/up_uninstall.dir
+/home/dworf/mav_ws/build/up/CMakeFiles/take_off.dir
+/home/dworf/mav_ws/build/up/CMakeFiles/test.dir
+/home/dworf/mav_ws/build/up/CMakeFiles/edit_cache.dir
+/home/dworf/mav_ws/build/up/CMakeFiles/rebuild_cache.dir
+/home/dworf/mav_ws/build/up/CMakeFiles/list_install_components.dir
+/home/dworf/mav_ws/build/up/CMakeFiles/install.dir
+/home/dworf/mav_ws/build/up/CMakeFiles/install/local.dir
+/home/dworf/mav_ws/build/up/CMakeFiles/install/strip.dir

@@ -1,0 +1,47 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dworf/mav_ws/build/up
+[ 50%] [32mBuilding CXX object CMakeFiles/take_off.dir/src/take_off.cpp.o[0m
+[01m[K/home/dworf/mav_ws/src/up/src/take_off.cpp:[m[K In constructor ‘[01m[KTakeOff::TakeOff()[m[K’:
+[01m[K/home/dworf/mav_ws/src/up/src/take_off.cpp:11:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconnection_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   11 |  ConnectionResult [01;35m[Kconnection_result[m[K = mavsdk.add_any_connection("udp://:14540");
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable take_off[0m
+[100%] Built target take_off
+-- Install configuration: ""
+-- Installing: /home/dworf/mav_ws/install/up/lib/up/take_off
+-- Set runtime path of "/home/dworf/mav_ws/install/up/lib/up/take_off" to ""
+-- Installing: /home/dworf/mav_ws/install/up/share/ament_index/resource_index/package_run_dependencies/up
+-- Installing: /home/dworf/mav_ws/install/up/share/ament_index/resource_index/parent_prefix_path/up
+-- Installing: /home/dworf/mav_ws/install/up/share/up/environment/ament_prefix_path.sh
+-- Installing: /home/dworf/mav_ws/install/up/share/up/environment/ament_prefix_path.dsv
+-- Installing: /home/dworf/mav_ws/install/up/share/up/environment/path.sh
+-- Installing: /home/dworf/mav_ws/install/up/share/up/environment/path.dsv
+-- Installing: /home/dworf/mav_ws/install/up/share/up/local_setup.bash
+-- Installing: /home/dworf/mav_ws/install/up/share/up/local_setup.sh
+-- Installing: /home/dworf/mav_ws/install/up/share/up/local_setup.zsh
+-- Installing: /home/dworf/mav_ws/install/up/share/up/local_setup.dsv
+-- Installing: /home/dworf/mav_ws/install/up/share/up/package.dsv
+-- Installing: /home/dworf/mav_ws/install/up/share/ament_index/resource_index/packages/up
+-- Installing: /home/dworf/mav_ws/install/up/share/up/cmake/upConfig.cmake
+-- Installing: /home/dworf/mav_ws/install/up/share/up/cmake/upConfig-version.cmake
+-- Installing: /home/dworf/mav_ws/install/up/share/up/package.xml

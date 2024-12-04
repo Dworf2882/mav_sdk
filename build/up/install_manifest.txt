@@ -1,0 +1,16 @@
+/home/dworf/mav_ws/install/up/lib/up/take_off
+/home/dworf/mav_ws/install/up/share/ament_index/resource_index/package_run_dependencies/up
+/home/dworf/mav_ws/install/up/share/ament_index/resource_index/parent_prefix_path/up
+/home/dworf/mav_ws/install/up/share/up/environment/ament_prefix_path.sh
+/home/dworf/mav_ws/install/up/share/up/environment/ament_prefix_path.dsv
+/home/dworf/mav_ws/install/up/share/up/environment/path.sh
+/home/dworf/mav_ws/install/up/share/up/environment/path.dsv
+/home/dworf/mav_ws/install/up/share/up/local_setup.bash
+/home/dworf/mav_ws/install/up/share/up/local_setup.sh
+/home/dworf/mav_ws/install/up/share/up/local_setup.zsh
+/home/dworf/mav_ws/install/up/share/up/local_setup.dsv
+/home/dworf/mav_ws/install/up/share/up/package.dsv
+/home/dworf/mav_ws/install/up/share/ament_index/resource_index/packages/up
+/home/dworf/mav_ws/install/up/share/up/cmake/upConfig.cmake
+/home/dworf/mav_ws/install/up/share/up/cmake/upConfig-version.cmake
+/home/dworf/mav_ws/install/up/share/up/package.xml

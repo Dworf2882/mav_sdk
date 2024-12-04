@@ -1,0 +1,51 @@
+[0.012s] Invoking command in '/home/dworf/mav_ws/build/up': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/Firmware2/install/aerobot_gz_sim:/opt/ros/humble /usr/bin/cmake /home/dworf/mav_ws/src/up -DCMAKE_INSTALL_PREFIX=/home/dworf/mav_ws/install/up
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.128s] -- The CXX compiler identification is GNU 11.4.0
+[0.136s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.214s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.214s] -- Detecting C compile features
+[0.214s] -- Detecting C compile features - done
+[0.217s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.302s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.306s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.442s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.534s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.583s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.589s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.599s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.630s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.679s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.682s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.800s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.831s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.876s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.886s] -- Looking for pthread.h
+[0.964s] -- Looking for pthread.h - found
+[0.964s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.041s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.042s] -- Found Threads: TRUE  
+[1.105s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.105s]   By not providing "FindMAVROS.cmake" in CMAKE_MODULE_PATH this project has
+[1.105s]   asked CMake to find a package configuration file provided by "MAVROS", but
+[1.106s]   CMake did not find one.
+[1.106s] 
+[1.106s]   Could not find a package configuration file provided by "MAVROS" with any
+[1.106s]   of the following names:
+[1.106s] 
+[1.106s]     MAVROSConfig.cmake
+[1.106s]     mavros-config.cmake
+[1.106s] 
+[1.106s]   Add the installation prefix of "MAVROS" to CMAKE_PREFIX_PATH or set
+[1.106s]   "MAVROS_DIR" to a directory containing one of the above files.  If "MAVROS"
+[1.106s]   provides a separate development package or SDK, be sure it has been
+[1.106s]   installed.
+[1.106s] 
+[1.106s] [0m
+[1.106s] -- Configuring incomplete, errors occurred!
+[1.107s] See also "/home/dworf/mav_ws/build/up/CMakeFiles/CMakeOutput.log".
+[1.113s] Invoked command in '/home/dworf/mav_ws/build/up' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/Firmware2/install/aerobot_gz_sim:/opt/ros/humble /usr/bin/cmake /home/dworf/mav_ws/src/up -DCMAKE_INSTALL_PREFIX=/home/dworf/mav_ws/install/up
